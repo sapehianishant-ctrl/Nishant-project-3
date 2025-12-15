@@ -1,0 +1,74 @@
+
+
+nav {
+    width: 98%;
+    height: 80px;
+    background: #fefdfd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #049fff;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-links li {
+    list-style: none;
+    font-size: 22px;
+    color: #0d0d0d;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-links li:hover {
+    color: #049fff;
+}
+
+
+.chat-btn {
+    padding: 15px 30px;
+    font-size: 22px;
+    background: #0366f9;
+    color: white;
+    border-radius: 29px;
+   cursor: pointer;
+}
+
+.chat-btn:hover {
+    background: white;
+    color: #0d6efd;
+}
+
+
+.desktop-chat {
+    display: block;
+}
+
+.mobile-chat {
+    display: none;
+}
+
+
+.menu-icon {
+    display: none;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+

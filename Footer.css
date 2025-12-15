@@ -1,0 +1,137 @@
+.footer {
+  background: #0c2f43;
+    color: #d1d5db;
+    padding: 50px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  
+  gap: 173px;
+
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #049fff;
+  margin-bottom: 20px;
+ padding-top: 30px;
+  text-align: left;
+}
+
+.plus {
+  color: #08e617; 
+}
+
+.footer-text {
+  max-width: 330px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-size: 20px;
+  letter-spacing: .6px;
+}
+
+.newsletter-title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: white;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.newsletter-box {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-box input {
+  background: #1e293b;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 8px;
+  color: white;
+  width: 260px;
+  font-size: 20px;
+}
+
+.newsletter-box button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.footer-col {
+  min-width: 180px;
+}
+
+.footer-heading {
+  color: #049fff;
+  font-weight: 600;
+  margin-bottom: 44px;
+  font-size: 33px;
+  padding-left: 48px;
+}
+
+.ft-section ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+  display: inline;
+}
+.ft-section li{
+  color: white;
+  font-size: 25px;
+  
+}
+
+.footer-col ul li {
+  margin-bottom: 66px;
+  cursor: pointer;
+  transition: 0.2s ease;
+
+}
+
+.footer-col ul li:hover {
+  color: #38bdf8;
+}
+
+.footer-bottom {
+  border-top: 1px solid #334155;
+  margin-top: 50px;
+  padding-top: 20px;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  font-size: 30px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social svg {
+  font-size: 20px;
+  color: white;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-social svg:hover {
+  background: #38bdf8;
+}
